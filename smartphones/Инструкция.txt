@@ -1,0 +1,13 @@
+1. Установите зависимости из файла requirements.txt:
+    - pip install -r requirements.txt
+
+2.1. Установите виртуальное окружение:
+    - pip install virtualenv
+2.2. Создайте виртуальное окружение:
+    - virtualenv venv
+
+3. Активируйте виртуальное окружение:
+    - venv\scripts\activate     (для Windows)
+    - source venv/bin/activate  (для Linux)
+
+4. В корне проекта запустите первым task1.py, затем app.py
